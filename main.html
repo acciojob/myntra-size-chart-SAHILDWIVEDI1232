@@ -1,51 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta charset="UTF-8">
   <title>Size Chart</title>
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #fafafa;
-    }
-
     table {
-      width: 80%;
-      margin: 40px auto;
       border-collapse: collapse;
-      background-color: #fff;
-      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      width: 60%;
+      margin: 30px auto;
+      text-align: center;
+      font-family: Arial, sans-serif;
     }
-
-    caption {
-      font-size: 1.8em;
-      font-weight: bold;
-      margin-bottom: 10px;
-    }
-
     thead th {
-      background-color: #f2f2f2;
-      padding: 12px;
-      text-align: center;
-      border: 1px solid #ddd;
+      background-color: #a94442;
+      color: white;
+      padding: 10px;
     }
-
     tbody td {
-      padding: 12px;
-      text-align: center;
-      border: 1px solid #ddd;
+      padding: 10px;
     }
-
-    tbody tr:nth-child(even) {
-      background-color: #f9f9f9;
+    tbody tr:nth-child(1) td {
+      background-color: #d88b8b;
+    }
+    tbody tr:nth-child(2) td {
+      background-color: #e9cccc;
+    }
+    tbody tr:nth-child(3) td {
+      background-color: #e2e2e2;
+    }
+    th, td {
+      border: 1px solid black;
+    }
+    tbody td:first-child {
+      font-weight: bold;
     }
   </style>
 </head>
 <body>
-
   <table>
-    <caption>Size Chart</caption>
     <thead>
       <tr>
         <th>Part</th>
@@ -66,46 +58,6 @@
         <td>32</td>
       </tr>
       <tr>
-        <td>Hip</td>
-        <td>34</td>
-        <td>36</td>
-        <td>38</td>
-        <td>40</td>
-        <td>42</td>
-      </tr>
-      <tr>
-        <td>Inseam</td>
-        <td>30</td>
-        <td>30.5</td>
-        <td>31</td>
-        <td>31.5</td>
-        <td>32</td>
-      </tr>
-      <tr>
-        <td>Length</td>
-        <td>38</td>
-        <td>39</td>
-        <td>40</td>
-        <td>41</td>
-        <td>42</td>
-      </tr>
-      <tr>
-        <td>Shoulder</td>
-        <td>15</td>
-        <td>15.5</td>
-        <td>16</td>
-        <td>16.5</td>
-        <td>17</td>
-      </tr>
-      <tr>
-        <td>Neck</td>
-        <td>13</td>
-        <td>14</td>
-        <td>15</td>
-        <td>15.5</td>
-        <td>16</td>
-      </tr>
-      <tr>
         <td>Chest</td>
         <td>34</td>
         <td>34</td>
@@ -123,6 +75,5 @@
       </tr>
     </tbody>
   </table>
-
 </body>
 </html>
